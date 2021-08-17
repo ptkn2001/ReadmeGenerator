@@ -45,6 +45,8 @@ Please email project owner (email provided below) if you would like to contribut
 
 Run the tool and review the Readme.md file created to make sure it get created properly.
 
+![Howto video](howto.bmp)
+
 ## Questions
 
 My Github Profile: [ptkn2001](https://github.com/ptkn2001)

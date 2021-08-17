@@ -59,6 +59,7 @@ class Readme {
         readmeContent += this.contributing;
         readmeContent += this.testsHeading;
         readmeContent += this.tests;
+        readmeContent += `![Howto video](howto.bmp)\r\n\r\n`
         readmeContent += this.questionsHeading;
         readmeContent += `My Github Profile: [${this.username}](https://github.com/${this.username})\r\n\r\n`;
         readmeContent += `For questions please email [${this.email}](mailto://${this.email})`;
