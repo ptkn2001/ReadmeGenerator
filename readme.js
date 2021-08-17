@@ -45,10 +45,12 @@ class Readme {
         readmeContent += this.usage;
         readmeContent += '```\r\n';
         readmeContent += this.licenseHeading;
-        if (this.license.toLowerCase() === "isc") {
+
+        console.log(typeof(this.license));
+        if (this.license.toLowerCase().trim() === "isc") {
             readmeContent += this.licenseISC;
             readmeContent += `This project used ISC license.\r\n\r\n`
-        } else if (this.license.toLowerCase() === "mit") {
+        } else if (this.license.toLowerCase().trim() === "mit") {
             readmeContent += this.licenseMIT;
             readmeContent += `This project used MIT license.\r\n\r\n`
         } else {
