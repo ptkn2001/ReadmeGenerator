@@ -46,7 +46,6 @@ class Readme {
         readmeContent += '```\r\n';
         readmeContent += this.licenseHeading;
 
-        console.log(typeof(this.license));
         if (this.license.toLowerCase().trim() === "isc") {
             readmeContent += this.licenseISC;
             readmeContent += `This project used ISC license.\r\n\r\n`
@@ -57,6 +56,7 @@ class Readme {
             readmeContent += this.licenseODbL;
             readmeContent += `This project used ODbL license.\r\n\r\n`
         }
+
         readmeContent += this.contributingHeading;
         readmeContent += this.contributing;
         readmeContent += this.testsHeading;
