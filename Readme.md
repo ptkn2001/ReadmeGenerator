@@ -1,4 +1,4 @@
-# Readme Generator
+# E-Commerce Backend
 
 ## Table of Contents
 
@@ -18,34 +18,32 @@
 
 ## Description
 
-This is a quick tool to generate the Readme.md file for your project.
+This is an E-Commerce REST API developed using Node.js, Express.js, MySql, and Sequelize. The API support CRUD operations for Categories, Products, and Product Tags.
 
 ## Installation
 
-Required node.js and Inquirer npm package to run.
+Required Node.js, Express.js, MySql, and Sequelize.
 
 ## Usage
 
 ```
-node index
-
+node index.js
 ```
 
 ## License
 
-[![License: ODbL](https://img.shields.io/badge/License-ODbL-brightgreen.svg)](https://opendatacommons.org/licenses/odbl/)
+[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
 
-This project used ODbL license.
+This project used ISC license.
 
 ## Contributing
 
-Please email project owner (email provided below) if you would like to contribute.
+Contact project owner if you would like to contribute to the project
 
 ## Tests
 
-Run the tool and review the Readme.md file created to make sure it get created properly.
-
-![Howto video](howto.bmp)
+Use Insomnia or Postman to test the API end points. See an example here:
+[HowTo Video](https://watch.screencastify.com/v/dNQ6ICKzF4aTsYCBcUz5)
 
 ## Questions
 
